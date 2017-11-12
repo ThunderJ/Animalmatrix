@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="mediaq.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+    <title>AnimalMatrix</title>
+
+</head>
+
+<body>
+<div id="container">
+    
+    <div id="form_container">
+        <div id="language"><a id="est_lang" href="#">est</a> | <a id="eng_lang" href="#">eng</a></div>
+        <div id="home"><a href="/">AnimalMatrix</a></div>
+        <div id="heading"><h1>ANIMALMATRIX.</h1></div>
+        <form id="form">
+            <div id="input_text">
+                <div id="firstname"> <input id="input1" type="text" name="FirstName" placeholder="First name" value="" a href="javascript:combiner()" autocomplete="off"></div>
+                <div id="lastname"> <input id="input2" type="text" name="LastName" placeholder="Last name" value="" a href="javascript:combiner()" autocomplete="off"></div>
+            </div>
+            <div id="buttons">
+                <input id="mix_button" href="#" type="button" value="Mix!" onclick="javascript:combiner()">
+                <input id="reset_button" href="#" type="button" value="Reset" onclick="javascript:refresh()">         
+            </div>
+            <p id="answer" a href="javascript:combiner()"></p>
+        </form>
+    </div>
+</div>
+
+    
+
+<script src="script.js"></script> 
+<script src="animals.js"></script> 
+<script src="randomNumber.js"></script> 
+</body>
+</html>
